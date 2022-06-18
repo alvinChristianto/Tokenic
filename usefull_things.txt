@@ -1,0 +1,38 @@
+usefull convention
+  https://docs.soliditylang.org/en/latest/style-guide.html
+ - Struct naming    : CapitalizedWords
+ - Function naming  : mixedCase
+ - Function Argument Names  : mixedCase
+ - Local and State Variable Names : mixedCase
+ - user 4 spaces indetation
+
+
+
+usefull commands
+ - truffle compile :
+    https://www.trufflesuite.com/docs/truffle/getting-started/compiling-contracts
+    compile .sol file to json file(artifact) placed in build/contracts.
+
+ - truffle migrate :
+    https://www.trufflesuite.com/docs/truffle/getting-started/running-migrations
+    migrations are JavaScript files that help you deploy contracts to the Ethereum network.
+
+ - truffle migrate --reset :
+    run all your migrations from the beginning.
+
+
+ - truffle migrate --network ropsten :
+    https://www.trufflesuite.com/docs/truffle/reference/truffle-commands#migrate
+    --network <name>: Specify the network to use, saving artifacts specific to that network. Network name must exist in the configuration.
+
+ - truffle develop & truffle console
+    https://www.trufflesuite.com/docs/truffle/getting-started/using-truffle-develop-and-the-console
+    Truffle Console: A basic interactive console connecting to any Ethereum client
+    Truffle Develop: An interactive console that also spawns a development blockchain
+
+ - truffle console --network ropsten
+
+
+usefull sites
+- making script generate abi :
+    https://ethereum.stackexchange.com/questions/38828/truffle-what-is-the-best-way-to-to-get-the-json-abi-code-after-deploying-a-cont
